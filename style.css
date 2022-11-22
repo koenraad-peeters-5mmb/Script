@@ -1,0 +1,54 @@
+header {
+    background-color: rgb(57, 54, 54);
+    border: 4px;
+    border-style: dotted;
+    border-color: brown;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(252, 0, 0);
+    border: 4px;
+    border-style: outset;
+    border-top-color: rgb(57, 54, 54);
+    border-left-color: rgb(57, 54, 54);
+    border-right-color: rgba(119, 110, 110, 0);
+    margin:     5px;
+    padding: 2%;
+}
+
+body {
+    background-color: rgb(57, 54, 54);
+}
+
+p,h1 {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    color: aliceblue;
+}
+
+#flexbox {
+    display: flex;
+}
+
+a:hover {
+    color: brown;
+
+}
+
+li {
+    display: inline-block;
+    padding: 4px;
+    border-style:solid;
+    border-color: brown;
+    border-radius: 15pt;
+    padding-left: 9pt;
+    padding-right: 11pt; 
+}
+
+li:hover {
+    background-color: rgba(240, 248, 255, 0.559);
+}
