@@ -35,7 +35,7 @@ li {
 }
 
 a:hover {
-    color: brown;
+    color: rgb(255, 255, 255);
 
 }
 
@@ -43,7 +43,7 @@ li {
     display: inline-block;
     padding: 4px;
     border-style:solid;
-    border-color: brown;
+    border-color: rgb(255, 255, 255);
     border-radius: 15pt;
     padding-left: 9pt;
     padding-right: 11pt; 
@@ -51,4 +51,8 @@ li {
 
 li:hover {
     background-color: rgba(240, 248, 255, 0.559);
+}
+
+.right {
+    text-align: center;
 }
