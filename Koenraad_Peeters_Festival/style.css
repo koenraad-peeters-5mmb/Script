@@ -1,0 +1,102 @@
+@import url("https://use.typekit.net/rnb6mqu.css");
+
+header {
+
+    background-color: #0E3240;
+    color: #F9FCF3;
+    justify-content: space-between;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: roboto, sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    width: 100%;
+
+}
+
+
+a {
+    font-family: roboto, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3 {
+    font-family: roboto, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #F9FCF3;
+}
+
+.logo img {
+
+    height: 100px;
+
+}
+
+
+
+.name {
+
+    font-size: 24px;
+
+}
+
+.grid-card img {
+    width: 273px;
+    height: 283px;
+    border: 10px solid white;
+  }
+
+nav ul {
+
+    list-style: none;
+
+    display: flex;
+
+}
+
+
+
+nav li {
+
+    margin-left: 20px;
+
+}
+
+
+
+nav a {
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+
+
+nav a:hover {
+
+    color: gray;
+
+}
+
+
+
+.grid-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 2rem;
+
+}
+
+body {
+    background-image: url("Fotos/BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
