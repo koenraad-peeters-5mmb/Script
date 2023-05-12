@@ -1,5 +1,7 @@
 @import url("https://use.typekit.net/rnb6mqu.css");
-
+*{
+    margin: 0;
+}
 header {
 
     background-color: #0E3240;
@@ -41,6 +43,16 @@ h3 {
 
     font-size: 24px;
 
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+#grid img{
+    width: 32vw;
 }
 
 .grid-card img {
