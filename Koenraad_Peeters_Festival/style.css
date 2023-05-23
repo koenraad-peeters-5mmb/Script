@@ -25,6 +25,13 @@ a {
     font-style: normal;
 }
 
+p {
+    font-family: roboto, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #F9FCF2;
+}
+
 h3 {
     font-family: roboto, sans-serif;
     font-weight: 700;
@@ -61,8 +68,6 @@ img {
     text-align: center;
 }
 
-
-
 nav ul {
 
     list-style: none;
@@ -88,16 +93,6 @@ nav a {
 nav a:hover {
 
     color: gray;
-
-}
-
-.grid-container {
-
-    display: grid;
-
-    grid-template-columns: repeat(3, 1fr);
-
-    gap: 2rem;
 
 }
 
@@ -242,3 +237,89 @@ h2 {
     aspect-ratio: 1 / 1;
     object-fit: auto;
 }
+
+.sponsors-row2 img {
+    width: 5%;
+    height: auto;
+}
+
+.sponsors-row2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.white-bar2 {
+    height: 1px;
+    background-color: white;
+    margin: 10px 0;
+}
+
+.sponsors2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.sponser2 {
+    color: #F9FCF3;
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+
+.container {
+    width: 650px;
+    height: 1250px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #87A59A;
+    padding: 20px;
+  }
+
+.foto-rechthoek {
+    width: 100%;
+    text-align: center;
+  }
+
+  .foto-rechthoek img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .text {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 120px;
+    left: 320px;
+    text-align: left;
+  }
+  
+  .top-left h1 {
+    font-family: roboto, sans-serif;
+    font-style: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+
+  .top-left h4 {
+    font-family: roboto, sans-serif;
+    font-style: bold;
+    font-size: 16px;
+    color: #C7D6B9;
+  }
+
+  .video-container {
+    width: 100%;
+    height: 315px;
+    margin-top: 20px;
+  }
